@@ -5,8 +5,8 @@ export default function Modal({setModal}) {
     setModal(false)
   }
   return (
-    <div onClick={closeModal} className="fixed inset-0 z-50   bg-gray-500 bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white  overflow-auto sm:w-[30%] h-[400px] sm:h-[800px] p-6 rounded-lg shadow-lg">
+    <div onClick={closeModal} className="fixed inset-0 h-screen z-50   bg-gray-500 bg-opacity-50 flex justify-center items-center">
+      <div className="bg-white  overflow-auto sm:w-[30%] h-[600px] sm:h-[800px] p-6 rounded-lg shadow-lg">
         <div className="cafe-info">
           <h2 className="text-2xl font-bold mb-4">Kafe özellikleri</h2>
           <ul className="list-disc pl-6">
