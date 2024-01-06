@@ -73,73 +73,145 @@ const data = [
   },
   {
     "category_name": "Yiyecekler",
-    "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/13753a5f-1163-476d-a9d1-e767f484821e.webp",
+    "category_image": "https://istanbulalerjimerkezi.com.tr/wp-content/uploads/2021/09/Cocuklari-Uzak-Tutmaniz-Gereken-Yiyecekler.jpg",
     "category_products": [
       {
-        "name": "Buzlu Kahve",
+        "name": "Hamburger",
         "description": "Buz ve isteğe bağlı süt/şeker ile servis edilen soğuk kahve.",
-        "price": 3.5
+        "price": 35
       },
       {
-        "name": "Buzlu Çay",
+        "name": "Pizza",
         "description": "Buz ve isteğe bağlı tatlar ile servis edilen soğuk çay.",
-        "price": 2.5
+        "price": 45
       },
       {
-        "name": "Limonata",
+        "name": "Makarna",
         "description": "Limon, su ve tatlandırıcılar ile yapılan ferahlatıcı bir soğuk içecek.",
-        "price": 2
+        "price": 40
       },
       {
-        "name": "Meyve Suyu Karışımı",
+        "name": "Tost",
         "description": "Farklı meyve sularının karışımı ve hafif gazoz esintisi.",
-        "price": 3
+        "price": 20
       },
       {
-        "name": "Buzlu Mocha",
+        "name": "Menemen",
         "description": "Çikolata sosu ve süt ile yapılan buzlu espresso.",
-        "price": 4
+        "price": 30
       },
       {
-        "name": "Mango Limonata",
+        "name": "Hamsi",
         "description": "Taze mango püresi ile yapılan limonata.",
-        "price": 3.5
+        "price": 50
       }
     ]
   },
   {
-    "category_name": "Yiyecekler",
-    "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/13753a5f-1163-476d-a9d1-e767f484821e.webp",
+    "category_name": "Tatlılar",
+    "category_image": "https://istanbulalerjimerkezi.com.tr/wp-content/uploads/2021/09/Cocuklari-Uzak-Tutmaniz-Gereken-Yiyecekler.jpg",
     "category_products": [
       {
-        "name": "Buzlu Kahve",
+        "name": "Kemalpaşa",
         "description": "Buz ve isteğe bağlı süt/şeker ile servis edilen soğuk kahve.",
-        "price": 3.5
+        "price": 35
       },
       {
-        "name": "Buzlu Çay",
+        "name": "Triliçe",
         "description": "Buz ve isteğe bağlı tatlar ile servis edilen soğuk çay.",
-        "price": 2.5
+        "price": 45
       },
       {
-        "name": "Limonata",
+        "name": "Pasta",
         "description": "Limon, su ve tatlandırıcılar ile yapılan ferahlatıcı bir soğuk içecek.",
-        "price": 2
+        "price": 40
       },
       {
-        "name": "Meyve Suyu Karışımı",
+        "name": "Künefe",
         "description": "Farklı meyve sularının karışımı ve hafif gazoz esintisi.",
-        "price": 3
+        "price": 20
       },
       {
-        "name": "Buzlu Mocha",
+        "name": "Sütlaç",
         "description": "Çikolata sosu ve süt ile yapılan buzlu espresso.",
-        "price": 4
+        "price": 30
       },
       {
-        "name": "Mango Limonata",
+        "name": "Tulumba Tatlısı",
         "description": "Taze mango püresi ile yapılan limonata.",
-        "price": 3.5
+        "price": 50
+      }
+    ]
+  },
+  {
+    "category_name": "Alkoller",
+    "category_image": "https://cdn.listelist.com/wp-content/uploads/2021/10/photo-1613126954862-04379c95d9af.jpeg",
+    "category_products": [
+      {
+        "name": "Bira",
+        "description": "Buz ve isteğe bağlı süt/şeker ile servis edilen soğuk kahve.",
+        "price": 35
+      },
+      {
+        "name": "Tekila",
+        "description": "Buz ve isteğe bağlı tatlar ile servis edilen soğuk çay.",
+        "price": 45
+      },
+      {
+        "name": "Şarap",
+        "description": "Limon, su ve tatlandırıcılar ile yapılan ferahlatıcı bir soğuk içecek.",
+        "price": 40
+      },
+      {
+        "name": "Chivas viski",
+        "description": "Farklı meyve sularının karışımı ve hafif gazoz esintisi.",
+        "price": 20
+      },
+      {
+        "name": "Rom",
+        "description": "Çikolata sosu ve süt ile yapılan buzlu espresso.",
+        "price": 30
+      },
+      {
+        "name": "Volim",
+        "description": "Taze mango püresi ile yapılan limonata.",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "category_name": "Atıştırmalıklar",
+    "category_image": "https://abp.com.tr/wp-content/uploads/2021/03/atistirmaliklar-1.jpg",
+    "category_products": [
+      {
+        "name": "Çerez",
+        "description": "Buz ve isteğe bağlı süt/şeker ile servis edilen soğuk kahve.",
+        "price": 35
+      },
+      {
+        "name": "Fıstık",
+        "description": "Buz ve isteğe bağlı tatlar ile servis edilen soğuk çay.",
+        "price": 45
+      },
+      {
+        "name": "Cips",
+        "description": "Limon, su ve tatlandırıcılar ile yapılan ferahlatıcı bir soğuk içecek.",
+        "price": 40
+      },
+      {
+        "name": "Patates Kızartması",
+        "description": "Farklı meyve sularının karışımı ve hafif gazoz esintisi.",
+        "price": 20
+      },
+      {
+        "name": "Antep Fıstığı",
+        "description": "Çikolata sosu ve süt ile yapılan buzlu espresso.",
+        "price": 30
+      },
+      {
+        "name": "Çekirdek",
+        "description": "Taze mango püresi ile yapılan limonata.",
+        "price": 50
       }
     ]
   },
