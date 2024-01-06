@@ -15,7 +15,7 @@ export default function Products() {
   // İlgili kategoriye ait ürünleri listelemek için category.products kullanılabilir
 
   return (
-    <div className='h-screen'>
+    <div className=''>
       <h2 className='text-center font-bold text-3xl sm:text-4xl bg-red-500 text-white'>{category.category_name}</h2>
       <div className='flex mx-auto p-2 flex-col'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6'>
