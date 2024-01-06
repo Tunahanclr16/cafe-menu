@@ -109,7 +109,7 @@ const data = [
   },
   {
     "category_name": "Tatlılar",
-    "category_image": "https://istanbulalerjimerkezi.com.tr/wp-content/uploads/2021/09/Cocuklari-Uzak-Tutmaniz-Gereken-Yiyecekler.jpg",
+    "category_image": "https://cdn.yemek.com/mncrop/940/625/uploads/2019/02/zebra-tatlisi-yemekcom.jpg",
     "category_products": [
       {
         "name": "Kemalpaşa",

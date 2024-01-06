@@ -15,7 +15,7 @@ export default function Menu() {
             <div className='mx-auto flex flex-col items-center p-2  mt-2 ' key={index}>
               <Link to={`/category/${categoryItem.category_name.replace()}`}>
                 <div className='flex flex-col  items-center mb-4'>
-                  <img  src={categoryItem.category_image} alt={categoryItem.category_name} className=' rounded object-cover w-[300px] sm:h-[200px] md:w-[650px] mr-2' />
+                  <img  src={categoryItem.category_image} alt={categoryItem.category_name} className=' rounded object-cover w-[300px] h-[100px] sm:h-[200px] md:w-[650px] mr-2' />
                   <h2 className='text-black font-bold text-xl whitespace-nowrap sm:text-4xl'>{categoryItem.category_name}</h2>
                 </div>
               </Link>
