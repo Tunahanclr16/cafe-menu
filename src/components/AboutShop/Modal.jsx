@@ -1,8 +1,11 @@
 import React from 'react';
 
-export default function Modal() {
+export default function Modal({setModal}) {
+  const closeModal=()=>{
+    setModal(false)
+  }
   return (
-    <div className="fixed inset-0 z-50  bg-gray-500 bg-opacity-50 flex justify-center items-center">
+    <div onClick={closeModal} className="fixed inset-0 z-50   bg-gray-500 bg-opacity-50 flex justify-center items-center">
       <div className="bg-white  overflow-auto sm:w-[30%] h-[400px] sm:h-[800px] p-6 rounded-lg shadow-lg">
         <div className="cafe-info">
           <h2 className="text-2xl font-bold mb-4">Kafe özellikleri</h2>

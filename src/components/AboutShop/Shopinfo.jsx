@@ -8,9 +8,7 @@ export default function Shopinfo() {
         setModal(true)
         console.log("açık")
     }
-    const closeModal=()=>{
-        setModal(false)
-    }
+
   return (
     <div className="border-t border-b border-r border-gray-4   max-w-[1700px] mt-2 mx-auto">
         <div className="flex items-center sm:flex-row flex-col p-4">
@@ -25,11 +23,10 @@ export default function Shopinfo() {
 </button>
 {modal ? (
   <div>
-    <Modal/>
+    <Modal setModal={setModal}/>
   </div>
 ) : (
   <div>
-    adsdsa
   </div>
 )}
         </div>
